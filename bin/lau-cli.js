@@ -1,11 +1,15 @@
 #!/usr/bin/env node
+// 导入第三方依赖
 const path = require("path");
 const program = require("commander");
+
+// 导入自定义文件依赖
+const { version, downloadDirectory } = require("../config/system-config");
 const { actionsMap } = require("../config/actions-map");
 
 program
 	// 定义当前版本
-	.version(require("../package.json").version)
+	.version(version)
 	// 定义使用指令
 	.usage("<command> [options]");
 
