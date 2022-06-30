@@ -6,6 +6,7 @@ specifiers:
   commander: ^2.19.0
   download-git-repo: ^1.1.0
   inquirer: ^6.5.2
+  ncp: ^2.0.0
   ora: ^3.4.0
 
 dependencies:
@@ -14,6 +15,7 @@ dependencies:
   commander: 2.20.3
   download-git-repo: 1.1.0
   inquirer: 6.5.2
+  ncp: 2.0.0
   ora: 3.4.0
 
 packages:
@@ -604,6 +606,11 @@ packages:
 
   /mute-stream/0.0.7:
     resolution: {integrity: sha512-r65nCZhrbXXb6dXOACihYApHw2Q6pV0M3V0PSxd74N0+D8nzAdEAITq2oAjA1jVnKI+tGvEBUpqiMh0+rW6zDQ==}
+    dev: false
+
+  /ncp/2.0.0:
+    resolution: {integrity: sha512-zIdGUrPRFTUELUvr3Gmc7KZ2Sw/h1PiVM0Af/oHB6zgnV1ikqSfRk+TOufi79aHYCW3NiOXmr1BP5nWbzojLaA==}
+    hasBin: true
     dev: false
 
   /npm-conf/1.1.3:
